@@ -1,5 +1,17 @@
 # WP Sandbox
 
+Quickly create subdomains and install a fresh WordPress site in it.
+
+Use CPanel and Softaculous APIs. (Needs CPanel and Softaculous installed)
+
+Created with "T.A.L.L. stack" (Tailwind, Alpine, Livewire, Laravel)
+
+Absolutely no warranty, support, or maintenance. Use it at your own risks.
+
+Quality of code = 0/100
+
+But it works! (for now)
+
 ## How to install
 
 1. Search/Replace these strings with something appropriate:
