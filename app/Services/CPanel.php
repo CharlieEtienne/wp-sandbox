@@ -172,9 +172,7 @@ class CPanel
         $subdomains   = collect($this->list_domains()->data->sub_domains ?? []);
 
         $filtered = $subdomains->filter(function( $value, $key ) {
-            return Str::contains($value, 'replace_with_rootdomain')
-                && !Str::contains($value, '*.replace_with_rootdomain')
-                && $value !== 'replace_with_rootdomain';
+            return Str::contains($value, 'replace_with_rootdomain');
         });
 
         $filtered->each(function( $domain, $key ) use ( $domains_list ) {
